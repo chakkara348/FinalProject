@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>ChromeTest</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>138/6/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu May 01 08:02:40 IST 2025</td>
+<td>Started on:</td><td>Thu May 01 10:06:49 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>10 seconds (10617 ms)</td>
+<tr><td>Total time:</td><td>2071 seconds (2071141 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,445 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Sydney, , , , 2024/04/25, , , 0, InvalidCheckInDate, Check-In Date is Invalid</td>
+<td><div><pre>java.lang.AssertionError: expected [Check-In Date is Invalid] but found []
+	at Pages.SelectHotelPage.SearchedValidation(SelectHotelPage.java:65)
+	at Tests.TC_015_Select_value_to_search.selectValueToSearchHotels(TC_015_Select_value_to_search.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace478650119", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace478650119'><pre>java.lang.AssertionError: expected [Check-In Date is Invalid] but found []
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at Pages.SelectHotelPage.SearchedValidation(SelectHotelPage.java:65)
+	at Tests.TC_015_Select_value_to_search.selectValueToSearchHotels(TC_015_Select_value_to_search.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>4</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Sydney, , , , , 2024/04/25, , 0, InvalidCheckOutDate, Check-Out Date is Invalid</td>
+<td><div><pre>java.lang.AssertionError: expected [Check-Out Date is Invalid] but found []
+	at Pages.SelectHotelPage.SearchedValidation(SelectHotelPage.java:68)
+	at Tests.TC_015_Select_value_to_search.selectValueToSearchHotels(TC_015_Select_value_to_search.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2069229734", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2069229734'><pre>java.lang.AssertionError: expected [Check-Out Date is Invalid] but found []
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at Pages.SelectHotelPage.SearchedValidation(SelectHotelPage.java:68)
+	at Tests.TC_015_Select_value_to_search.selectValueToSearchHotels(TC_015_Select_value_to_search.java:36)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>4</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_012_Chnage_Password.changePassword()'><b>changePassword</b><br>Test class: Tests.TC_012_Chnage_Password<br>Parameters: chakka312, 161298, , , , InvalidCurrent, Please enter correct current password!!!</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[contains(text(),&apos;You have successfully&apos;)]&quot;}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [942d606cd65b5b70a97bc6cf7334f57b, findElement {using=xpath, value=//td[contains(text(),&apos;You have successfully&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\cmurugan\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51077}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51077/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 942d606cd65b5b70a97bc6cf7334f57b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at Pages.LogoutPage.checkLogoutMessage(LogoutPage.java:25)
+	at Tests.TC_012_Chnage_Password.changePassword(TC_012_Chnage_Password.java:29)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace497734268", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace497734268'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[contains(text(),&apos;You have successfully&apos;)]&quot;}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [942d606cd65b5b70a97bc6cf7334f57b, findElement {using=xpath, value=//td[contains(text(),&apos;You have successfully&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\cmurugan\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51077}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51077/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 942d606cd65b5b70a97bc6cf7334f57b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at Pages.LogoutPage.checkLogoutMessage(LogoutPage.java:25)
+	at Tests.TC_012_Chnage_Password.changePassword(TC_012_Chnage_Password.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>33</td>
+<td>Tests.TC_012_Chnage_Password@491b9b8</td></tr>
+<tr>
+<td title='Tests.TC_012_Chnage_Password.changePassword()'><b>changePassword</b><br>Test class: Tests.TC_012_Chnage_Password<br>Parameters: chakka312, 123, 123, 456, , InvalidConfirm, Please enter correct Confirm password!!!</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc8b1d63c258b5a3dd7ccda7dd70d107, getElementText {id=f.FD3E00A4AECF17A0AE813C34B776A6E7.d.7898E137C16F4A730F24BCC194BEA279.e.671}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\cmurugan\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51163}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51163/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fc8b1d63c258b5a3dd7ccda7dd70d107)] -&gt; id: re_pass_span]
+Session ID: fc8b1d63c258b5a3dd7ccda7dd70d107
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at Pages.ChangePasswordPage.checkValidation(ChangePasswordPage.java:78)
+	at Tests.TC_012_Chnage_Password.changePassword(TC_012_Chnage_Password.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1363137012", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1363137012'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc8b1d63c258b5a3dd7ccda7dd70d107, getElementText {id=f.FD3E00A4AECF17A0AE813C34B776A6E7.d.7898E137C16F4A730F24BCC194BEA279.e.671}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\cmurugan\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51163}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51163/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (fc8b1d63c258b5a3dd7ccda7dd70d107)] -&gt; id: re_pass_span]
+Session ID: fc8b1d63c258b5a3dd7ccda7dd70d107
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at Pages.ChangePasswordPage.checkValidation(ChangePasswordPage.java:78)
+	at Tests.TC_012_Chnage_Password.changePassword(TC_012_Chnage_Password.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>3</td>
+<td>Tests.TC_012_Chnage_Password@491b9b8</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp()'><b>checkSignUp</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios<br>Parameters: chakki2345, 123456, 123456, Ram, ram1278923@gmail.com, Valid, An email verification code has been sent to your email address. Please check your email and verify your email address.</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[contains(text(),&apos;email verification code&apos;)]&quot;}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c84f7658c9f710eea5fe8e5e2d39fee, findElement {using=xpath, value=//td[contains(text(),&apos;email verification code&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\cmurugan\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60551/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c84f7658c9f710eea5fe8e5e2d39fee
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at Pages.SignUpPage.checkValidation(SignUpPage.java:182)
+	at Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp(TC_005_Register_with_valid_and_Invalid_scenarios.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1563833544", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1563833544'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[contains(text(),&apos;email verification code&apos;)]&quot;}
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0c84f7658c9f710eea5fe8e5e2d39fee, findElement {using=xpath, value=//td[contains(text(),&apos;email verification code&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\cmurugan\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60551/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0c84f7658c9f710eea5fe8e5e2d39fee
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at Pages.SignUpPage.checkValidation(SignUpPage.java:182)
+	at Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp(TC_005_Register_with_valid_and_Invalid_scenarios.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>59</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_012_Chnage_Password.changePassword()'><b>changePassword</b><br>Test class: Tests.TC_012_Chnage_Password<br>Parameters: chakka312, 161298, 161298, 123, 123456, InvalidNew, Please enter correct New password!!!</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07a46a40799699c5f4af70a29467a3bb, getElementText {id=f.8EC7728E61B456AEEDE3439F487B4E35.d.7C1C6686150C56EE0047CECAED4A4F90.e.663}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\cmurugan\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51126}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51126/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (07a46a40799699c5f4af70a29467a3bb)] -&gt; id: pass_span]
+Session ID: 07a46a40799699c5f4af70a29467a3bb
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at Pages.ChangePasswordPage.checkValidation(ChangePasswordPage.java:75)
+	at Tests.TC_012_Chnage_Password.changePassword(TC_012_Chnage_Password.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1641899843", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1641899843'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=135.0.7049.115)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.29.0&apos;, revision: &apos;5fc1ec94cb&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.4&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [07a46a40799699c5f4af70a29467a3bb, getElementText {id=f.8EC7728E61B456AEEDE3439F487B4E35.d.7C1C6686150C56EE0047CECAED4A4F90.e.663}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\cmurugan\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51126}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51126/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (07a46a40799699c5f4af70a29467a3bb)] -&gt; id: pass_span]
+Session ID: 07a46a40799699c5f4af70a29467a3bb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getText(Unknown Source)
+	at Pages.ChangePasswordPage.checkValidation(ChangePasswordPage.java:75)
+	at Tests.TC_012_Chnage_Password.changePassword(TC_012_Chnage_Password.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>3</td>
+<td>Tests.TC_012_Chnage_Password@491b9b8</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,10 +515,697 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='Tests.TC_011_Book_A_Hotel.BookingAHotel()'><b>BookingAHotel</b><br>Test class: Tests.TC_011_Book_A_Hotel<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 28/04/2025, 2, 0, Chakka, Murugan, Madurai, 1234567890123456, AMEX, 1, 2027, , InvalidCVV, Please Enter your Credit Card CVV Number</td>
+<td></td>
+<td>4</td>
+<td>Tests.TC_011_Book_A_Hotel@79207381</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, New York, Hotel Creek, Deluxe, 9, 27/04/2033, 27/04/2033, 1, 3, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Los Angeles, Hotel Hervey, Deluxe, 7, 27/04/2031, 27/04/2031, 3, 1, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Brisbane, Hotel Hervey, Deluxe, 3, 27/04/2027, 27/04/2027, 3, 2, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Paris, Hotel Sunshine, Double, 2, 27/04/2026, 27/04/2026, 2, 1, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios.checkForgotPassword()'><b>checkForgotPassword</b><br>Test class: Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios<br>Parameters: chakka@gmail.com, InvalidEmail, Email Address does not exsit in database</td>
+<td></td>
+<td>5</td>
+<td>Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios@5884a914</td></tr>
+<tr>
+<td title='Tests.TC_009_Select_a_Hotel.selectAHotelToBook()'><b>selectAHotelToBook</b><br>Test class: Tests.TC_009_Select_a_Hotel<br>Parameters: chakka312, 161298, London, Hotel Hervey, Super Deluxe, 1, 27/04/2025, 30/04/2025, 2, 0, valid, Book A Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_009_Select_a_Hotel@50378a4</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Melbourne, Hotel Cornice, Super Deluxe, 4, 27/04/2028, 27/04/2028, 4, 3, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios.checkForgotPassword()'><b>checkForgotPassword</b><br>Test class: Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios<br>Parameters: chakka, InvalidEmail, Invalid email, Please enter correct email.</td>
+<td></td>
+<td>4</td>
+<td>Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios@5884a914</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Melbourne, Hotel Sunshine, Super Deluxe, 10, 27/04/2034, 27/04/2034, 2, 4, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Melbourne, Hotel Sunshine, Double, 6, 27/04/2030, 27/04/2030, 2, 0, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Melbourne, Hotel Hervey, Deluxe, 7, 27/04/2031, 27/04/2031, 3, 1, Valid, Select Hotel</td>
+<td></td>
+<td>10</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, London, Hotel Sunshine, Double, 6, 27/04/2030, 27/04/2030, 2, 0, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Adelaide, Hotel Creek, Standard, 1, 27/04/2025, 27/04/2025, 1, 0, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, New York, Hotel Sunshine, Super Deluxe, 10, 27/04/2034, 27/04/2034, 2, 4, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Paris, Hotel Creek, Standard, 1, 27/04/2025, 27/04/2025, 1, 0, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Melbourne, Hotel Creek, Standard, 1, 27/04/2025, 27/04/2025, 1, 0, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_006_Login_with_valid_and_invalid_scenarios.checkingLogin()'><b>checkingLogin</b><br>Test class: Tests.TC_006_Login_with_valid_and_invalid_scenarios<br>Parameters: Test1234, Test123, EmailNotVerify, Invalid Login details or Your Password might have expired. Click here to reset your password</td>
+<td></td>
+<td>0</td>
+<td>Tests.TC_006_Login_with_valid_and_invalid_scenarios@25df00a0</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, New York, Hotel Creek, Standard, 5, 27/04/2029, 27/04/2029, 1, 4, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, London, Hotel Creek, Standard, 5, 27/04/2029, 27/04/2029, 1, 4, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, New York, Hotel Sunshine, Double, 6, 27/04/2030, 27/04/2030, 2, 0, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_011_Book_A_Hotel.BookingAHotel()'><b>BookingAHotel</b><br>Test class: Tests.TC_011_Book_A_Hotel<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 28/04/2025, 2, 0, Murugan, , Madurai, 1234567890123456, AMEX, 1, 2025, 035, InvalidLastname, Please Enter you Last Name</td>
+<td></td>
+<td>4</td>
+<td>Tests.TC_011_Book_A_Hotel@79207381</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Brisbane, Hotel Creek, Standard, 5, 27/04/2029, 27/04/2029, 1, 4, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkReset()'><b>checkReset</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios</td>
+<td></td>
+<td>27</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, New York, Hotel Hervey, Deluxe, 3, 27/04/2027, 27/04/2027, 3, 2, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Los Angeles, Hotel Cornice, Super Deluxe, 8, 27/04/2032, 27/04/2032, 4, 2, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_004_Checking_Options_are_clickable_on_register_page.checkingRegisterPageFieldsAreClickable()'><b>checkingRegisterPageFieldsAreClickable</b><br>Test class: Tests.TC_004_Checking_Options_are_clickable_on_register_page</td>
+<td></td>
+<td>0</td>
+<td>Tests.TC_004_Checking_Options_are_clickable_on_register_page@7e990ed7</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Los Angeles, Hotel Creek, Deluxe, 9, 27/04/2033, 27/04/2033, 1, 3, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_013_Cancel_Book_iternary.checkCancelBookItineraryByAllCheck()'><b>checkCancelBookItineraryByAllCheck</b><br>Test class: Tests.TC_013_Cancel_Book_iternary<br>Parameters: chakka312, 161298</td>
+<td></td>
+<td>46</td>
+<td>Tests.TC_013_Cancel_Book_iternary@1a4927d6</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Los Angeles, Hotel Cornice, Super Deluxe, 4, 27/04/2028, 27/04/2028, 4, 3, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_011_Book_A_Hotel.BookingAHotel()'><b>BookingAHotel</b><br>Test class: Tests.TC_011_Book_A_Hotel<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 28/04/2025, 2, 0, Chakka, Murugan, Madurai, 1234567890123456, AMEX, 1, 2027, 034, Valid, </td>
+<td></td>
+<td>10</td>
+<td>Tests.TC_011_Book_A_Hotel@79207381</td></tr>
+<tr>
+<td title='Tests.TC_012_Chnage_Password.changePassword()'><b>changePassword</b><br>Test class: Tests.TC_012_Chnage_Password<br>Parameters: chakka312, 456, 456, 161298, 161298, Valid, Your Password is successfully updated!!!</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_012_Chnage_Password@491b9b8</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Melbourne, Hotel Hervey, Deluxe, 3, 27/04/2027, 27/04/2027, 3, 2, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_011_Book_A_Hotel.BookingAHotel()'><b>BookingAHotel</b><br>Test class: Tests.TC_011_Book_A_Hotel<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 28/04/2025, 2, 0, , Murugan, Madurai, 1234567890123456, AMEX, 1, 2025, 035, InvalidFirstname, Please Enter your First Name</td>
+<td></td>
+<td>4</td>
+<td>Tests.TC_011_Book_A_Hotel@79207381</td></tr>
+<tr>
+<td title='Tests.TC_006_Login_with_valid_and_invalid_scenarios.checkingLogin()'><b>checkingLogin</b><br>Test class: Tests.TC_006_Login_with_valid_and_invalid_scenarios<br>Parameters: chakka312, 161298, Valid, https://adactinhotelapp.com/SearchHotel.php</td>
+<td></td>
+<td>3</td>
+<td>Tests.TC_006_Login_with_valid_and_invalid_scenarios@25df00a0</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, , , , , , , , 0, Invalid, Please Select a Location</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_011_Book_A_Hotel.BookingAHotel()'><b>BookingAHotel</b><br>Test class: Tests.TC_011_Book_A_Hotel<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 28/04/2025, 2, 0, Chakka, Murugan, Madurai, 1234567890123456, AMEX, 1, 2027, 034, Valid, </td>
+<td></td>
+<td>10</td>
+<td>Tests.TC_011_Book_A_Hotel@79207381</td></tr>
+<tr>
+<td title='Tests.TC_011_Book_A_Hotel.BookingAHotel()'><b>BookingAHotel</b><br>Test class: Tests.TC_011_Book_A_Hotel<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 28/04/2025, 2, 0, Chakka, Murugan, Madurai, 1234567890123456, AMEX, 1, 2027, 034, Valid, </td>
+<td></td>
+<td>19</td>
+<td>Tests.TC_011_Book_A_Hotel@79207381</td></tr>
+<tr>
+<td title='Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios.checkForgotPassword()'><b>checkForgotPassword</b><br>Test class: Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios<br>Parameters: , InvalidEmail, Email Address is Empty</td>
+<td></td>
+<td>4</td>
+<td>Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios@5884a914</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Brisbane, Hotel Sunshine, Super Deluxe, 10, 27/04/2034, 27/04/2034, 2, 4, Valid, Select Hotel</td>
+<td></td>
+<td>9</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp()'><b>checkSignUp</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios<br>Parameters: 3445etry@, 123456, 123456, Rocky, Rocky@gmail.com, InvalidUsername, Only Alpha Numeric characters are allowed</td>
+<td></td>
+<td>30</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_013_Cancel_Book_iternary.checkCancelBookItineraryBySingleCheck()'><b>checkCancelBookItineraryBySingleCheck</b><br>Test class: Tests.TC_013_Cancel_Book_iternary<br>Parameters: chakka312, 161298</td>
+<td></td>
+<td>48</td>
+<td>Tests.TC_013_Cancel_Book_iternary@1a4927d6</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Adelaide, Hotel Hervey, Deluxe, 3, 27/04/2027, 27/04/2027, 3, 2, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Los Angeles, Hotel Sunshine, Double, 2, 27/04/2026, 27/04/2026, 2, 1, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Brisbane, Hotel Sunshine, Double, 2, 27/04/2026, 27/04/2026, 2, 1, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Adelaide, Hotel Cornice, Super Deluxe, 4, 27/04/2028, 27/04/2028, 4, 3, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Brisbane, Hotel Cornice, Super Deluxe, 8, 27/04/2032, 27/04/2032, 4, 2, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Sydney, , , , 26/04/2025, 24/04/2025, , 0, InvalidCheckInDate, Check-In Date shall be before than Check-Out Date</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_011_Book_A_Hotel.BookingAHotel()'><b>BookingAHotel</b><br>Test class: Tests.TC_011_Book_A_Hotel<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 28/04/2025, 2, 0, Chakka, Murugan, Madurai, 1234567890123456, AMEX, 1, , 036, InvalidYear, Please Select your Credit Card Expiry Year</td>
+<td></td>
+<td>4</td>
+<td>Tests.TC_011_Book_A_Hotel@79207381</td></tr>
+<tr>
+<td title='Tests.TC_009_Select_a_Hotel.selectAHotelToBook()'><b>selectAHotelToBook</b><br>Test class: Tests.TC_009_Select_a_Hotel<br>Parameters: chakka312, 161298, New York, Hotel Cornice, Double, 1, 28/04/2025, 29/04/2025, 2, 0, valid, Book A Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_009_Select_a_Hotel@50378a4</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Paris, Hotel Sunshine, Double, 6, 27/04/2030, 27/04/2030, 2, 0, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_003_Checking_fields_on_Register_page_are_displayed.checkingRegisterPageFieldsAreDisplayed()'><b>checkingRegisterPageFieldsAreDisplayed</b><br>Test class: Tests.TC_003_Checking_fields_on_Register_page_are_displayed</td>
+<td></td>
+<td>2</td>
+<td>Tests.TC_003_Checking_fields_on_Register_page_are_displayed@4d14b6c2</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Brisbane, Hotel Creek, Deluxe, 9, 27/04/2033, 27/04/2033, 1, 3, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Paris, Hotel Creek, Deluxe, 9, 27/04/2033, 27/04/2033, 1, 3, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios.checkForgotPassword()'><b>checkForgotPassword</b><br>Test class: Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios<br>Parameters: ram12789@gmail.com, valid, An email has been sent to your email address containing Username and Password. Please check your email.
+
+Click here to login</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios@5884a914</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, London, Hotel Hervey, Deluxe, 3, 27/04/2027, 27/04/2027, 3, 2, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp()'><b>checkSignUp</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios<br>Parameters: , 123456, 123456, Rocky, Rocky@gmail.com, InvalidUsername, Username is Empty</td>
+<td></td>
+<td>27</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_011_Book_A_Hotel.BookingAHotel()'><b>BookingAHotel</b><br>Test class: Tests.TC_011_Book_A_Hotel<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 28/04/2025, 2, 0, Chakka, Murugan, Madurai, , AMEX, 1, 2025, 035, InvalidCreditCardNumber, Please Enter your 16 Digit Credit Card Number</td>
+<td></td>
+<td>4</td>
+<td>Tests.TC_011_Book_A_Hotel@79207381</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Melbourne, Hotel Creek, Standard, 5, 27/04/2029, 27/04/2029, 1, 4, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, London, Hotel Cornice, Super Deluxe, 4, 27/04/2028, 27/04/2028, 4, 3, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, New York, Hotel Sunshine, Double, 2, 27/04/2026, 27/04/2026, 2, 1, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Paris, Hotel Creek, Standard, 5, 27/04/2029, 27/04/2029, 1, 4, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, London, Hotel Cornice, Super Deluxe, 8, 27/04/2032, 27/04/2032, 4, 2, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Melbourne, Hotel Creek, Deluxe, 9, 27/04/2033, 27/04/2033, 1, 3, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_006_Login_with_valid_and_invalid_scenarios.checkingLogin()'><b>checkingLogin</b><br>Test class: Tests.TC_006_Login_with_valid_and_invalid_scenarios<br>Parameters: , Test324, EmptyUserName, Enter Username</td>
+<td></td>
+<td>0</td>
+<td>Tests.TC_006_Login_with_valid_and_invalid_scenarios@25df00a0</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Sydney, Hotel Hervey, Deluxe, 3, 27/04/2027, 27/04/2027, 3, 2, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_006_Login_with_valid_and_invalid_scenarios.checkingLogin()'><b>checkingLogin</b><br>Test class: Tests.TC_006_Login_with_valid_and_invalid_scenarios<br>Parameters: Test232, , EmptyPassword, Enter Password</td>
+<td></td>
+<td>0</td>
+<td>Tests.TC_006_Login_with_valid_and_invalid_scenarios@25df00a0</td></tr>
+<tr>
+<td title='Tests.TC_007_Checking_Fields_on_Search_Hotel_page.CheckingSearchPageFields()'><b>CheckingSearchPageFields</b><br>Test class: Tests.TC_007_Checking_Fields_on_Search_Hotel_page<br>Parameters: Location* , Hotels , Room Type , Number of Rooms* , Check In Date* , Check Out Date* , Adults per Room* , Children per Room , Search, Reset</td>
+<td></td>
+<td>3</td>
+<td>Tests.TC_007_Checking_Fields_on_Search_Hotel_page@4d15107f</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Adelaide, Hotel Sunshine, Double, 6, 27/04/2030, 27/04/2030, 2, 0, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, London, Hotel Sunshine, Double, 2, 27/04/2026, 27/04/2026, 2, 1, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_011_Book_A_Hotel.BookingAHotel()'><b>BookingAHotel</b><br>Test class: Tests.TC_011_Book_A_Hotel<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 28/04/2025, 2, 0, Chakka, Murugan, Madurai, 1234567890123456, AMEX, 1, 2027, 034, Valid, </td>
+<td></td>
+<td>9</td>
+<td>Tests.TC_011_Book_A_Hotel@79207381</td></tr>
+<tr>
+<td title='Tests.TC_006_Login_with_valid_and_invalid_scenarios.checkingLogin()'><b>checkingLogin</b><br>Test class: Tests.TC_006_Login_with_valid_and_invalid_scenarios<br>Parameters: chakka312, Test324, InvalidPassword, Invalid Login details or Your Password might have expired. Click here to reset your password</td>
+<td></td>
+<td>0</td>
+<td>Tests.TC_006_Login_with_valid_and_invalid_scenarios@25df00a0</td></tr>
+<tr>
+<td title='Tests.TC_006_Login_with_valid_and_invalid_scenarios.checkingLogin()'><b>checkingLogin</b><br>Test class: Tests.TC_006_Login_with_valid_and_invalid_scenarios<br>Parameters: Testerre, Test324, BothInvalid, Invalid Login details or Your Password might have expired. Click here to reset your password</td>
+<td></td>
+<td>0</td>
+<td>Tests.TC_006_Login_with_valid_and_invalid_scenarios@25df00a0</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Sydney, Hotel Sunshine, Double, 2, 27/04/2026, 27/04/2026, 2, 1, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Melbourne, Hotel Cornice, Super Deluxe, 8, 27/04/2032, 27/04/2032, 4, 2, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Sydney, Hotel Sunshine, Super Deluxe, 10, 27/04/2034, 27/04/2034, 2, 4, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_010_Select_a_Hotel_Negative_Scenario.selectAHotelToBook()'><b>selectAHotelToBook</b><br>Test class: Tests.TC_010_Select_a_Hotel_Negative_Scenario<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 28/04/2025, 2, 0, Invalid, Please Select a Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_010_Select_a_Hotel_Negative_Scenario@60f00693</td></tr>
+<tr>
+<td title='Tests.TC_001_Checking_Fields_On_Login_Page_Are_Visible.checkingLoginPageFieldsAreDisplayed()'><b>checkingLoginPageFieldsAreDisplayed</b><br>Test class: Tests.TC_001_Checking_Fields_On_Login_Page_Are_Visible</td>
+<td></td>
+<td>0</td>
+<td>Tests.TC_001_Checking_Fields_On_Login_Page_Are_Visible@6a8658ff</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 27/04/2025, 1, 0, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Brisbane, Hotel Sunshine, Double, 6, 27/04/2030, 27/04/2030, 2, 0, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, London, Hotel Creek, Standard, 1, 27/04/2025, 27/04/2025, 1, 0, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_011_Book_A_Hotel.BookingAHotel()'><b>BookingAHotel</b><br>Test class: Tests.TC_011_Book_A_Hotel<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 28/04/2025, 2, 0, Murugan, Chakka, , 1234567890123456, AMEX, 1, 2025, 035, InvalidAddress, Please Enter your Address</td>
+<td></td>
+<td>4</td>
+<td>Tests.TC_011_Book_A_Hotel@79207381</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp()'><b>checkSignUp</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios<br>Parameters: Test1223, 123456, , Test2, Test2@gmail.com, InvalidConfirm, Confirm Password is Empty</td>
+<td></td>
+<td>27</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Deluxe, 9, 27/04/2033, 27/04/2033, 1, 3, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_013_Cancel_Book_iternary.checkCancelBookItineraryByCancelButton()'><b>checkCancelBookItineraryByCancelButton</b><br>Test class: Tests.TC_013_Cancel_Book_iternary<br>Parameters: chakka312, 161298</td>
+<td></td>
+<td>39</td>
+<td>Tests.TC_013_Cancel_Book_iternary@1a4927d6</td></tr>
+<tr>
+<td title='Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios.checkReset()'><b>checkReset</b><br>Test class: Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios</td>
+<td></td>
+<td>1</td>
+<td>Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios@5884a914</td></tr>
+<tr>
+<td title='Tests.TC_009_Select_a_Hotel.selectAHotelToBook()'><b>selectAHotelToBook</b><br>Test class: Tests.TC_009_Select_a_Hotel<br>Parameters: chakka312, 161298, Paris, Hotel Sunshine, Deluxe, 1, 01/05/2025, 28/05/2025, 2, 0, valid, Book A Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_009_Select_a_Hotel@50378a4</td></tr>
+<tr>
+<td title='Tests.TC_011_Book_A_Hotel.BookingAHotel()'><b>BookingAHotel</b><br>Test class: Tests.TC_011_Book_A_Hotel<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 28/04/2025, 2, 0, Chakka, Murugan, Madurai, 1234567890123456, AMEX, , 2026, 035, InvalidMonth, Please Select your Credit Card Expiry Month</td>
+<td></td>
+<td>4</td>
+<td>Tests.TC_011_Book_A_Hotel@79207381</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Brisbane, Hotel Cornice, Super Deluxe, 4, 27/04/2028, 27/04/2028, 4, 3, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Sydney, Hotel Sunshine, Double, 6, 27/04/2030, 27/04/2030, 2, 0, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Melbourne, Hotel Sunshine, Double, 2, 27/04/2026, 27/04/2026, 2, 1, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp()'><b>checkSignUp</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios<br>Parameters: 3445etry, 123456, 345443, Rocky, Rocky@gmail.com, InvalidCaptcha, Captcha is Invalid</td>
+<td></td>
+<td>27</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Los Angeles, Hotel Creek, Standard, 1, 27/04/2025, 27/04/2025, 1, 0, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Adelaide, Hotel Sunshine, Super Deluxe, 10, 27/04/2034, 27/04/2034, 2, 4, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, New York, Hotel Hervey, Deluxe, 7, 27/04/2031, 27/04/2031, 3, 1, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, London, Hotel Hervey, Deluxe, 7, 27/04/2031, 27/04/2031, 3, 1, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkCaptachaEmptyError()'><b>checkCaptachaEmptyError</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, New York, Hotel Cornice, Super Deluxe, 8, 27/04/2032, 27/04/2032, 4, 2, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Adelaide, Hotel Hervey, Deluxe, 7, 27/04/2031, 27/04/2031, 3, 1, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Paris, Hotel Sunshine, Super Deluxe, 10, 27/04/2034, 27/04/2034, 2, 4, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Sydney, Hotel Hervey, Deluxe, 7, 27/04/2031, 27/04/2031, 3, 1, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkCheckBoxNotCheckError()'><b>checkCheckBoxNotCheckError</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios</td>
+<td></td>
+<td>27</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Brisbane, Hotel Hervey, Deluxe, 7, 27/04/2031, 27/04/2031, 3, 1, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp()'><b>checkSignUp</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios<br>Parameters: 3445etry, 123456, 345443, Rocky, Rocky@gmail.com, InvalidConfirm, Passwords Do Not Match</td>
+<td></td>
+<td>27</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_006_Login_with_valid_and_invalid_scenarios.checkingLogin()'><b>checkingLogin</b><br>Test class: Tests.TC_006_Login_with_valid_and_invalid_scenarios<br>Parameters: Testerre, 161298, InvalidUsername, Invalid Login details or Your Password might have expired. Click here to reset your password</td>
+<td></td>
+<td>0</td>
+<td>Tests.TC_006_Login_with_valid_and_invalid_scenarios@25df00a0</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Paris, Hotel Hervey, Deluxe, 7, 27/04/2031, 27/04/2031, 3, 1, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, London, Hotel Sunshine, Super Deluxe, 10, 27/04/2034, 27/04/2034, 2, 4, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Paris, Hotel Cornice, Super Deluxe, 4, 27/04/2028, 27/04/2028, 4, 3, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp()'><b>checkSignUp</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios<br>Parameters: 3445etry, 123456, 345443, Rocky, test123, InvalidEmail, Invalid email, Please enter correct email.</td>
+<td></td>
+<td>27</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, New York, Hotel Cornice, Super Deluxe, 4, 27/04/2028, 27/04/2028, 4, 3, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Los Angeles, Hotel Creek, Standard, 5, 27/04/2029, 27/04/2029, 1, 4, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp()'><b>checkSignUp</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios<br>Parameters: eter324, 123456, 123456, chakka, chakkaravarthi348@gmail.com, InvalidUsername, Username must contain minimum 8 characters</td>
+<td></td>
+<td>28</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Adelaide, Hotel Creek, Deluxe, 9, 27/04/2033, 27/04/2033, 1, 3, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp()'><b>checkSignUp</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios<br>Parameters: 3445etry, 123456, 345443, Rocky, Rocky@gmail.com, ValidCaptcha, Captcha Verified Succesfully</td>
+<td></td>
+<td>27</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp()'><b>checkSignUp</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios<br>Parameters: Test1223, 123456, 123456, Test2, , InvalidEmail, Email Address is Empty</td>
+<td></td>
+<td>27</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Adelaide, Hotel Creek, Standard, 5, 27/04/2029, 27/04/2029, 1, 4, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp()'><b>checkSignUp</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios<br>Parameters: 3445etry, 123, 123456, Rocky, Rocky@gmail.com, InvalidPassword, Password must contain minimum 6 characters</td>
+<td></td>
+<td>27</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Sydney, , , , 26/04/2025, 24/04/2025, , 0, InvalidCheckOutDate, Check-Out Date shall be after than Check-In Date</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Sydney, Hotel Cornice, Super Deluxe, 8, 27/04/2032, 27/04/2032, 4, 2, Valid, Select Hotel</td>
+<td></td>
+<td>9</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_009_Select_a_Hotel.selectAHotelToBook()'><b>selectAHotelToBook</b><br>Test class: Tests.TC_009_Select_a_Hotel<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 28/04/2025, 2, 0, valid, Book A Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_009_Select_a_Hotel@50378a4</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp()'><b>checkSignUp</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios<br>Parameters: Test1223, , 123456, Test1, test1@gmail.com, InvalidPassword, Password is Empty</td>
+<td></td>
+<td>27</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Los Angeles, Hotel Sunshine, Super Deluxe, 10, 27/04/2034, 27/04/2034, 2, 4, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Paris, Hotel Hervey, Deluxe, 3, 27/04/2027, 27/04/2027, 3, 2, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp()'><b>checkSignUp</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios<br>Parameters: eter3242, 123456, 123456, chakka, chakkaravarthi348@gmail.com, InvalidEmail, Email address is already in use</td>
+<td></td>
+<td>32</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Sydney, Hotel Cornice, Super Deluxe, 4, 27/04/2028, 27/04/2028, 4, 3, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Los Angeles, Hotel Sunshine, Double, 6, 27/04/2030, 27/04/2030, 2, 0, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_005_Register_with_valid_and_Invalid_scenarios.checkSignUp()'><b>checkSignUp</b><br>Test class: Tests.TC_005_Register_with_valid_and_Invalid_scenarios<br>Parameters: Test1223, 123456, 123456, , Test3@gmail.com, InvalidFull, Full Name is Empty</td>
+<td></td>
+<td>27</td>
+<td>Tests.TC_005_Register_with_valid_and_Invalid_scenarios@c05fddc</td></tr>
+<tr>
 <td title='Tests.TC_014_Logout_from_page.Logout()'><b>Logout</b><br>Test class: Tests.TC_014_Logout_from_page<br>Parameters: chakka312, 161298</td>
 <td></td>
 <td>5</td>
-<td>Tests.TC_014_Logout_from_page@17bffc17</td></tr>
+<td>Tests.TC_014_Logout_from_page@7a6d7e92</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, London, Hotel Creek, Deluxe, 9, 27/04/2033, 27/04/2033, 1, 3, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_002_Checking_Options_Are_Clickable_On_Login_page.checkingLoginPageFieldsAreClickable()'><b>checkingLoginPageFieldsAreClickable</b><br>Test class: Tests.TC_002_Checking_Options_Are_Clickable_On_Login_page</td>
+<td></td>
+<td>0</td>
+<td>Tests.TC_002_Checking_Options_Are_Clickable_On_Login_page@69c81773</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, New York, Hotel Creek, Standard, 1, 27/04/2025, 27/04/2025, 1, 0, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_011_Book_A_Hotel.BookingAHotel()'><b>BookingAHotel</b><br>Test class: Tests.TC_011_Book_A_Hotel<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 1, 27/04/2025, 28/04/2025, 2, 0, Chakka, Murugan, Madurai, 1234567890123456, , 1, 2025, 035, InvalidCardType, Please Select your Credit Card Type</td>
+<td></td>
+<td>4</td>
+<td>Tests.TC_011_Book_A_Hotel@79207381</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Adelaide, Hotel Cornice, Super Deluxe, 8, 27/04/2032, 27/04/2032, 4, 2, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Brisbane, Hotel Creek, Standard, 1, 27/04/2025, 27/04/2025, 1, 0, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Los Angeles, Hotel Hervey, Deluxe, 3, 27/04/2027, 27/04/2027, 3, 2, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Sydney, Hotel Creek, Standard, 5, 27/04/2029, 27/04/2029, 1, 4, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Adelaide, Hotel Sunshine, Double, 2, 27/04/2026, 27/04/2026, 2, 1, Valid, Select Hotel</td>
+<td></td>
+<td>8</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
+<tr>
+<td title='Tests.TC_015_Select_value_to_search.selectValueToSearchHotels()'><b>selectValueToSearchHotels</b><br>Test class: Tests.TC_015_Select_value_to_search<br>Parameters: chakka312, 161298, Paris, Hotel Cornice, Super Deluxe, 8, 27/04/2032, 27/04/2032, 4, 2, Valid, Select Hotel</td>
+<td></td>
+<td>7</td>
+<td>Tests.TC_015_Select_value_to_search@7b4c50bc</td></tr>
 </table><p>
 </body>
 </html>
