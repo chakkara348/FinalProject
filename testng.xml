@@ -26,5 +26,47 @@
 		</classes>
 	</test> <!--
 	Test -->
+	<test thread-count="5" name="EdgeTest">
+		<parameter name="browser" value="edge"></parameter>
+		<classes>
+			<class name="Tests.TC_001_Checking_Fields_On_Login_Page_Are_Visible" />
+			<class name="Tests.TC_002_Checking_Options_Are_Clickable_On_Login_page" />
+			<class name="Tests.TC_003_Checking_fields_on_Register_page_are_displayed" />
+			<class name="Tests.TC_004_Checking_Options_are_clickable_on_register_page" />
+			<class name="Tests.TC_005_Register_with_valid_and_Invalid_scenarios" />
+			<class name="Tests.TC_006_Login_with_valid_and_invalid_scenarios" />
+			<class name="Tests.TC_007_Checking_Fields_on_Search_Hotel_page" />
+			<class name="Tests.TC_015_Select_value_to_search" />
+			<class name="Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios" />
+			<class name="Tests.TC_009_Select_a_Hotel" />
+			<class name="Tests.TC_010_Select_a_Hotel_Negative_Scenario" />
+			<class name="Tests.TC_011_Book_A_Hotel" />
+			<class name="Tests.TC_012_Chnage_Password" />
+			<class name="Tests.TC_013_Cancel_Book_iternary" />
+			<class name="Tests.TC_014_Logout_from_page" />
+		</classes>
+	</test> <!--
+	Test -->
+	<test thread-count="5" name="firefoxTest">
+		<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="Tests.TC_001_Checking_Fields_On_Login_Page_Are_Visible" />
+			<class name="Tests.TC_002_Checking_Options_Are_Clickable_On_Login_page" />
+			<class name="Tests.TC_003_Checking_fields_on_Register_page_are_displayed" />
+			<class name="Tests.TC_004_Checking_Options_are_clickable_on_register_page" />
+			<class name="Tests.TC_005_Register_with_valid_and_Invalid_scenarios" />
+			<class name="Tests.TC_006_Login_with_valid_and_invalid_scenarios" />
+			<class name="Tests.TC_007_Checking_Fields_on_Search_Hotel_page" />
+			<class name="Tests.TC_015_Select_value_to_search" />
+			<class name="Tests.TC_008_Forgot_Password_with_valid_and_Invalid_scenarios" />
+			<class name="Tests.TC_009_Select_a_Hotel" />
+			<class name="Tests.TC_010_Select_a_Hotel_Negative_Scenario" />
+			<class name="Tests.TC_011_Book_A_Hotel" />
+			<class name="Tests.TC_012_Chnage_Password" />
+			<class name="Tests.TC_013_Cancel_Book_iternary" />
+			<class name="Tests.TC_014_Logout_from_page" />
+		</classes>
+	</test> <!--
+	Test -->
 </suite> <!--
 Suite -->
